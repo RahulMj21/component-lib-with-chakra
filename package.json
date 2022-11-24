@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/RahulMj21"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "scripts": {
         "rollup": "rollup -c",
