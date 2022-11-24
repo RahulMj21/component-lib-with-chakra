@@ -1,10 +1,12 @@
+import { Button as ChakraBtn, ButtonProps } from "@chakra-ui/react";
 import React from "react";
 import "./Button.scss";
-import { Button as ChakraBtn, ButtonProps } from "@chakra-ui/react";
 
 export interface BtnProps
-    extends React.HTMLAttributes<HTMLButtonElement & ButtonProps> {
+    extends Omit<React.HTMLAttributes<HTMLButtonElement>, "color">,
+        ButtonProps {
     children: string;
+    ref?: React.LegacyRef<HTMLButtonElement>;
 }
 
 const Button = ({ children, ...props }: BtnProps) => {
@@ -12,3 +14,5 @@ const Button = ({ children, ...props }: BtnProps) => {
 };
 
 export default Button;
+
+<Button>hello</Button>;
