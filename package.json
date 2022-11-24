@@ -1,5 +1,8 @@
 {
-    "name": "react-component",
+    "name": "@RahulMj21/component-lib-with-chakra",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/RahulMj21"
+    },
     "version": "1.0.0",
     "description": "",
     "scripts": {
