@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/RahulMj21"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "scripts": {
         "rollup": "rollup -c",
@@ -60,7 +60,11 @@
     },
     "peerDependencies": {
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "@chakra-ui/react": "^2.4.1",
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "framer-motion": "^7.6.10"
     },
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
