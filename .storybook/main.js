@@ -9,6 +9,7 @@ module.exports = {
         "@storybook/addon-interactions",
         "@storybook/preset-scss",
         "@chakra-ui/storybook-addon",
+        "@storybook/addon-a11y",
     ],
     framework: "@storybook/react",
     features: {
